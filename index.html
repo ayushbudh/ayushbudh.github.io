@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* navbar link color */
+        .navbar-light .navbar-nav .nav-link {
+            color: #004cff;
+            padding-left: 50px;
+            font-weight: 400;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        /* navbar color*/
+        .bg-light {
+            background-color: white !important;
+        }
+
+        /* nabar hover color for links */
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #6491f9;
+        }
+
+        #bgimg {
+            width: 100%;
+            height: 1200px;
+            padding: 2%;
+            margin: auto;
+            box-shadow: 0px 0px 10px 2px gray;
+            background-image: url(profiledited.jpg);
+            background-size: cover;
+            text-align: justify;
+            font-size: xx-large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+        }
+
+        #aboutme {
+            margin-top: 80px;
+            padding: 5%;
+            height: 250px;
+            text-align: center;
+            font-size: larger;
+
+            box-shadow: 0px 0px 10px 2px gray;
+        }
+
+        /* Projects */
+        .card-deck {
+            margin: 20px;
+            text-align: center;
+
+        }
+
+        .card-deck .card {
+            box-shadow: 0px 0px 10px 2px gray;
+        }
+
+        #projects {
+            margin-top: 40px;
+            text-align: center;
+            font-size: larger;
+
+        }
+
+        footer {
+
+            bottom: 0;
+            width: 100%;
+            height: 200px;
+            background-color: whitesmoke;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            padding: 22px;
+            font-size: 50px;
+            margin: 10px;
+            color: white;
+            background-color: black;
+            border-radius: 55px;
+        }
+
+        .contact a:hover {
+            color: rgb(223, 220, 220);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div id="bgimg">
+        <h1 style="text-align: center;">Hello! Everyone My name is Ayush!! <br> An Undergradute student at GSU. </h1>
+    </div>
+
+    <!-- ABout Me Section -->
+    <div id="aboutme">
+        <h1> -- About Me --</h1>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis tempora nemo consectetur ipsa nulla quae
+            modi
+            quam labore vitae est ipsum error quis veritatis, dolor iste quidem laboriosam! Adipisci, est?Ad veritatis
+            qui
+            quam minus autem atque ut, quod sint dicta inventore perspiciatis nulla debitis blanditiis commodi, iste
+            deleniti! Tenetur vitae possimus soluta id velit sequi dolore quod illum quos!</p>
+    </div>
+
+    <!-- projects-->
+    <div id="projects">
+
+        <h1 style="text-align: center; padding: 50px;">Projects</h1>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="res/project1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tic Tac Toe</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                    </p>
+                    <a href="#" class="btn btn-success">View Project</a>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="res/project2.png" height="500px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">V Booker</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+
+                    <a href="#" class="btn btn-success">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="res/project3.png" height="500px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">E Learn</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional
+                        content. This card has even longer content than the first to show that equal height action.</p>
+                    <a href="#" class="btn btn-success">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="res/project4.png" height="500px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">ATM Application</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                    <a href="#" class="btn btn-success">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="res/project5.png" height="500px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Customer Query Application</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <a href="#" class="btn btn-success">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="res/project6.png" height="500px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Pong Game</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional
+                        content. This card has even longer content than the first to show that equal height action.</p>
+                    <a href="#" class="btn btn-success">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section-->
+    <footer>
+        <div id="contact">
+            <h2 style="text-align: center;padding: 30px;"> Contact </h2>
+            <div class="content">
+
+                <div class="contact">
+                    <a href="mailto:ayushbudhwani41@gmail.com" target="_blank"><span class="fas fa-envelope"></span></a>
+
+                    <a href="https://linkedin.com/in/ayushbudhwani" target="_blank"><span
+                            class="fab fa-linkedin-in"></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
