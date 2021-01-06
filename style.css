@@ -1,0 +1,192 @@
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 100px;
+
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        /* navbar link color */
+        .navbar-light .navbar-nav .nav-link {
+
+            color: black;
+            padding-left: 50px;
+            font-weight: bolder;
+            font-size: 20px;
+            text-transform: uppercase;
+
+        }
+
+        /* navbar color*/
+        .bg-light {
+            background-color: whitesmoke !important;
+        }
+
+        /* nabar hover color for links */
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: gray;
+            cursor: pointer;
+        }
+
+        /* Intro Text */
+        .text-container p:nth-child(1) {
+            font-family: calibri;
+            font-weight: bold;
+            color: black;
+            font-size: 24px;
+        }
+
+        .text-container p:nth-child(2) {
+            font-family: calibri;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: black;
+            font-size: 70px;
+        }
+
+        .text-container p:nth-child(3) {
+            font-family: myriad pro regular;
+            color: black;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+
+        .text-container p {
+            line-height: 20px;
+            margin: 45px 0px 25px;
+
+        }
+
+        .text-container {
+            position: absolute;
+            left: 67%;
+            top: 42%;
+            transform: translate(-12%, -20%);
+            background-color: white;
+            border-radius: 20px;
+            padding: 40px;
+
+        }
+
+        .text-container button {
+            width: 190px;
+            height: 60px;
+            border-radius: 10px;
+            font-family: calibri;
+            font-weight: bold;
+            font-size: 22px;
+            outline: none;
+        }
+
+
+        form .download-resume {
+            background-color: white;
+            color: black;
+
+            border: 1px solid black;
+
+        }
+
+        .download-resume:active {
+            transform: scale(1.1);
+        }
+
+        .download-resume:hover {
+            background-color: black;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+
+
+
+        #bgimg {
+            width: 180%;
+            box-shadow: 0px 0px 10px 2px gray;
+            text-align: justify;
+            font-size: xx-large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+
+        }
+
+        .img-fluid {
+            filter: grayscale(29%);
+
+        }
+
+        .headings {
+            font-size: 50px;
+            font-weight: bolder;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+
+        #aboutme {
+            margin-top: 40px;
+            padding: 40px;
+            font-size: 23px;
+            border-radius: 0px;
+            box-shadow: 0px 0px 10px 2px gray;
+        }
+
+        /* Projects */
+        .card-deck {
+            margin: 20px;
+            text-align: center;
+
+        }
+
+        .card-deck .card {
+            box-shadow: 0px 0px 10px 2px gray;
+        }
+
+        .card-title {
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        .btn-success {
+            padding: 18px;
+            font-size: 20px;
+        }
+
+        #projects {
+            margin-top: 40px;
+            padding: 40px;
+            text-align: center;
+            font-size: larger;
+            border-radius: 0px;
+            box-shadow: 0px 0px 10px 2px gray;
+
+        }
+
+        footer {
+            margin-top: 40px;
+            width: 100%;
+            height: 250px;
+            background-color: whitesmoke;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            padding: 22px;
+            font-size: 50px;
+            margin: 10px;
+            color: white;
+            background-color: black;
+            border-radius: 55px;
+        }
+
+        .contact a:hover {
+            color: rgb(223, 220, 220);
+        }
+
