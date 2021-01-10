@@ -152,10 +152,18 @@
             font-weight: bolder;
         }
 
-        .btn-success {
-            padding: 18px;
+        .btn{
+            color:grey;
+            padding: 15px;
             font-size: 20px;
+            border: 1px solid grey;
         }
+
+        .btn:hover{
+            background-color: grey;
+            color:white;
+        }
+
 
         #projects {
             padding-left: 20px;
