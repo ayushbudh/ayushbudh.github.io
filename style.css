@@ -82,6 +82,63 @@
             outline: none;
         }
 
+        @media (max-width: 1202px) { 
+            .text-container {
+                position: absolute;
+                left: 67%;
+                top: 42%;
+                transform: translate(-12%, -20%);
+                background-color: white;
+                border-radius: 20px;
+                padding: 40px;
+    
+            }
+            .text-container p:nth-child(1) {
+                font-family: calibri;
+                font-weight: bold;
+                color: black;
+                font-size: 20px;
+            }
+
+            .text-container p:nth-child(2) {
+                font-size: 60px;
+            }
+            .text-container p:nth-child(3){
+                font-size: 25px;
+            }
+
+            .text-container button {
+                width: 160px;
+                height: 50px;   
+                font-size: 18px;
+            }
+         }
+
+         
+         @media (max-width: 1067px) { 
+            .text-container p:nth-child(1) {
+                font-family: calibri;
+                font-weight: bold;
+                color: black;
+                font-size: 18px;
+            }
+
+            .text-container p:nth-child(2) {
+                font-size: 45px;
+            }
+            .text-container p:nth-child(3){
+                font-size: 22px;
+            }
+
+            .text-container button {
+                width: 160px;
+                height: 50px;   
+                font-size: 18px;
+                text-align: center;
+            }
+         }
+
+
 
         form .download-resume {
             background-color: white;
@@ -192,7 +249,7 @@
             margin: 10px;
             color: white;
             background-color: black;
-            border-radius: 100px;
+            border-radius: 7px;
         }
 
         .contact a:hover {
